@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "config": {
+      "baseImage": "python:3.9-slim"
+    }
+  },
+  "deploy": {
+    "startCommand": "python main.py"
+  }
+}
