@@ -2,10 +2,9 @@
   "build": {
     "builder": "nixpacks",
     "config": {
-      "baseImage": "python:3.9-slim"
+      "baseImage": "python:3.9",
+      "installCommand": "pip install -r requirements.txt",
+      "startCommand": "gunicorn main:app"
     }
-  },
-  "deploy": {
-    "startCommand": "python main.py"
   }
 }
