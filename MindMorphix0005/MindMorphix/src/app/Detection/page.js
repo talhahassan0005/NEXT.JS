@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef } from "react";
+import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AIAssistant from "@/components/AIAssistant";
 
@@ -106,12 +107,14 @@ const Detection = () => {
                     </>
                   ) : (
                     <div className="position-relative">
-                      <img
+                      <image
                         src={image}
                         alt="Upload preview"
                         className="img-fluid rounded shadow"
                         style={{ maxHeight: "400px" }}
                       />
+
+
                       <button
                         className="btn btn-sm btn-danger position-absolute top-0 end-0 m-2"
                         onClick={(e) => {

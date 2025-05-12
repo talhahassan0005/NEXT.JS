@@ -19,7 +19,7 @@ const Support = () => {
         {/* FAQ Section */}
         <div className=" bg-dark">
           <h3 className="text-secondary">Frequently Asked Questions (FAQ)</h3>
-          <div className="">
+          <div className=" bg-color">
             <div className=" bg-dark text-white">
               <a href="#" onClick={() => toggleAnswer(1)} className="text-white">
                 How do I upload my MRI scan?
@@ -66,7 +66,7 @@ const Support = () => {
         {/* Contact Information Section */}
         <div className=" bg-dark">
           <h3 className="text-secondary">Contact Us</h3>
-          <p>Email us at: <a href="mailto:support@yourcompany.com" className="text-info">talhafast0005@gmail.com</a></p>
+          <p>Email us at: <a href="mailto:talhafast0005@gmail.com" className="text-info">talhafast0005@gmail.com</a></p>
           <p>Phone: +92 3021419651</p>
           <p>Live Chat: Available from 9:00 AM to 6:00 PM (M-F)</p>
         </div>
@@ -74,17 +74,21 @@ const Support = () => {
         {/* Troubleshooting Section */}
         <div className=" bg-dark">
           <h3 className="text-secondary">Troubleshooting</h3>
-          <p>If you're facing issues, check out the following solutions:</p>
+          <p>If you&apos;re facing issues, check out the following solutions:</p>
           <ul className="">
             <li className=" bg-dark text-white">
-              <strong>Problem</strong>: "Unable to upload MRI scan."
+              <strong>Problem</strong>: &quot;Unable to upload MRI scan.&quot;
+
               <br />
               <strong>Solution</strong>: Check the file format (supported formats: DICOM, JPG, PNG).
             </li>
             <li className=" bg-dark text-white">
-              <strong>Problem</strong>: "Page not loading."
+              
+              <strong>Problem</strong>: &quot;Page not loading.&quot;
+
               <br />
-              <strong>Solution</strong>: Ensure you're using an updated version of your browser.
+              <strong>Solution</strong>: &quot; Ensure you&apos;re using an updated version of your browser.&quot;
+
             </li>
           </ul>
         </div>

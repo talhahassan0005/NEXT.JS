@@ -128,7 +128,7 @@ export default function LoginPage() {
               </button>
 
               <p className="text-center mt-3 text-secondary">
-                Don't have an account? <Link href="/singup" className="text-info">Register</Link>
+               Don&apos;t have an account? <Link href="/singup" className="text-info">Register</Link>
               </p>
             </form>
           ) : (

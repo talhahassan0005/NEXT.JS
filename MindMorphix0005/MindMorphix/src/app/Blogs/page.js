@@ -60,7 +60,7 @@ export default function Blogs() {
 
                   {/* Image Display */}
                   {article.image && (
-                    <img src={article.image} alt={article.title} className="img-fluid mb-3" />
+                    <image src={article.image} alt={article.title} className="img-fluid mb-3" />
                   )}
 
                   <div className="mt-4">
