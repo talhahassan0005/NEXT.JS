@@ -3,3 +3,5 @@ torch==1.13.1+cpu
 flask
 gunicorn
 python-3.9.13
+boto3
+requests
