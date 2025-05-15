@@ -1,7 +1,0 @@
-torch==1.13.1+cpu
--f https://download.pytorch.org/whl/cpu/torch_stable.html
-flask
-gunicorn
-python-3.9.13
-boto3
-requests
